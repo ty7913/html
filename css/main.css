@@ -1,0 +1,26 @@
+.profile{
+    width: 100px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.name{
+    text-align: center;
+}
+
+.job{
+    text-align: center;
+}
+.box{
+   width:200px;
+   height:100px;
+   background-color:rgb(226, 246, 255);
+   margin:30px;
+   padding:40px;
+   border-radius: 10px;
+   margin:0 auto;
+   text-align: center;
+   font-size: 10px;
+   box-shadow: 3px 3px gray;
+}
