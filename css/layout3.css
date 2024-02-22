@@ -1,0 +1,84 @@
+html, body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+h3{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+.warper{
+    width:100%;
+    height:100%;
+    display: block;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;    
+}
+
+
+.join_Area{
+    width:600px;
+    height:700px;
+    display:block;
+    background-color: #fff;
+    margin: 0 auto;
+    padding:30px;
+}
+.join_Area h3{
+    font-size:30px;
+    padding-bottom:30px;
+    letter-spacing: -1px;
+}
+
+.join_Area input[type=text]{
+    height:40px;
+    border-radius: 5px;
+    padding-left:30px;
+    border:1px solid #d1d1d1;
+}
+
+.join_Area div p {
+    margin-bottom:10px;
+    letter-spacing: -1px;
+}
+.join_Area textarea{
+    resize: none;
+    width:100%;
+    border-radius: 5px;
+    border:1px solid #d1d1d1;
+}
+.join_email_form{
+    width:100%;
+    margin-bottom:20px;
+}
+.join_email_form input{
+    width:calc(100% - 30px);
+}
+.join_name_fristname{
+    width:50%;
+    float:left;
+    margin-bottom:20px;
+}
+.join_name_fristname input{
+    width:calc(100% - 60px);
+}
+.join_name_lastname{
+    width:50%;
+    float:right;
+    margin-bottom:20px;
+}
+.join_name_lastname input{
+    width:calc(100% - 60px);
+    float: left;
+}
+.join_message_form{
+    width:100%;
+    margin-bottom:20px;
+}
