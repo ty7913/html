@@ -74,4 +74,12 @@ p{
 .join_message_form{
     width:100%;
     margin-bottom:20px;
+    line-height: 40px;
+}
+.join_sub button{
+    float:right;
+    padding:10px 40px 10px 40px;
+    border:none;
+    border-radius: 10px;
+    background-color: yellow;
 }
