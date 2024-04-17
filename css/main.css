@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'gulim','dotum';
 }
 div,input,textarea{
     box-sizing: border-box;
